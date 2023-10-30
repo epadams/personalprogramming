@@ -1,0 +1,20 @@
+Possibly what I want:
+chapter
+chapter_id
+
+Available for chapter: prefix when using --split-chapters for videos with internal chapters:
+    section_title (string): Title of the chapter
+    section_number (numeric): Number of the chapter within the file
+
+Available for the media that is a track or a part of a music album:
+
+    track (string): Title of the track
+    track_number (numeric): Number of the track within an album or a disc
+    track_id (string): Id of the track
+    artist (string): Artist(s) of the track
+    genre (string): Genre(s) of the track
+    album (string): Title of the album the track belongs to
+    album_type (string): Type of the album
+    album_artist (string): List of all artists appeared on the album
+    disc_number (numeric): Number of the disc or other physical medium the track belongs to
+    release_year (numeric): Year (YYYY) when the album was released
